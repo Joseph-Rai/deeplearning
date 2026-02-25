@@ -1,0 +1,10 @@
+
+import numpy as np
+
+A = np.array([[1,2],[3,4],[5,6]])
+print(A.shape)
+
+B = np.array([7,8])
+print(B.shape)
+
+print(np.dot(A,B)) # 행렬 A와 B의 곱
